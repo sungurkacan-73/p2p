@@ -176,13 +176,14 @@ def verify_file_structure():
 def verify_features():
     """Verify key features are implemented."""
     print("\n=== FEATURE VERIFICATION ===\n")
-    
+
     features = {
         'Dynamic Buffer Optimization': ('get_optimal_chunk_size', 'p2p.py'),
         'Directory Zipping': ('tempfile.TemporaryDirectory', 'p2p.py'),
-        'Android WakeLock': ('PowerManager.PARTIAL_WAKE_LOCK', 'main.py'),
-        'Samsung UI Design': ('#007AFE', 'main.py'),
-        'Turkish Localization': ('P2P Paylaş', 'main.py'),
+        'Tabbed Send/Receive UI': ('class SendTab', 'main.py'),
+        'Automatic LAN/WAN Scope': ('_determine_scope', 'main.py'),
+        'Turkish Localization': ('P2P Paylaş - PIN Korumalı', 'main.py'),
+        'Primary Accent Color': ('0, 122/255, 254/255, 1', 'main.py'),
         'Distribution Automation': ('PackageManager', 'package_manager.py'),
     }
     

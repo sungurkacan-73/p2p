@@ -10,6 +10,16 @@ dist/
 
 ## 🚀 Nasıl Çalıştırılır?
 
+### EXE ve kurulum paketini oluşturma
+Windows üzerinde derlemek için PowerShell'de:
+```powershell
+# Sadece taşınabilir EXE
+./build_exe.ps1
+
+# EXE + Inno Setup installer (ISCC gerektirir)
+./build_exe.ps1 -WithInstaller
+```
+
 ### Seçenek 1: Doğrudan Çalıştırma
 Masaüstüne kısayol oluşturun veya:
 ```powershell
